@@ -4,7 +4,7 @@ import sys
 from commands.add_task import add_task
 from commands.list_tasks import list_tasks
 from commands.update_task import update_task
-from commands.delete_task import delete_task
+from projeto_ratreador_de_tarefa.commands.delete_task import delete_task
 
 def main():
   if len(sys.argv) < 2:
